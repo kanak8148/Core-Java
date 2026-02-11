@@ -5,7 +5,7 @@ public class swaping {
 
 		int a = 5;
 		int b = 10;
-		int c = 3;
+		int c;
 
 		System.out.println("a = " + a);
 		System.out.println("b = " + b);
