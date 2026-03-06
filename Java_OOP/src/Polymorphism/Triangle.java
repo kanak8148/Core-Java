@@ -1,6 +1,7 @@
 package Polymorphism;
 
 public class Triangle extends Shape {
+	
 	private int base;
 	private int hight;
 
@@ -19,6 +20,7 @@ public class Triangle extends Shape {
 	public void setHight(int hight) {
 		this.hight = hight;
 	}
+	
 public double area () {
 	return ((base * hight)/2.0);
 	

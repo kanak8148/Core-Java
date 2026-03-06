@@ -4,6 +4,7 @@ public class Shape {
 	
 	protected String color ;
 	protected int borderwidth;
+	
 	public String getColor() {
 		return color;
 	}
