@@ -6,6 +6,10 @@ public class ICICBank extends Bank{
 	public String getName() {
 		return "ICICIBank";
 	}
+	@Override
+	public double interestRate() {
+		return 12.10;
 	
 
+}
 }

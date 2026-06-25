@@ -6,7 +6,8 @@ public class TestSum {
 
 		Sum s = new Sum();
 		
-		Sum s1 = new Sum(5, 10);
+		Sum s1 = new Sum(5, 10 );
+		Sum s3 = new Sum(1,3,4);
 
 	}
 

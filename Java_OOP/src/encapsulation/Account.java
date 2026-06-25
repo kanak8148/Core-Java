@@ -26,17 +26,17 @@ public class Account {
 		this.balance = balance;
 	}
 	
-	public void deposit(double amt) {
-		balance = balance + amt;
+	public void deposit(double amtount) {
+		balance = balance + amtount;
 		System.out.println("total balace after deposit" + balance );
 		
 	}
 	
-	public void withdrawal(double amt) {
-		if(amt >balance) {
+	public void withdrawal(double wamt) {
+		if(wamt >balance) {
 			System.out.println("insufficent fund transfer");
 		}else {
-			balance = balance -amt;
+			balance = balance -wamt;
 			System.out.println("total balance after withdrawal:-" + balance);
 			
 			

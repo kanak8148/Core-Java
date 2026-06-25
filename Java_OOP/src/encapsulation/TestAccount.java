@@ -15,11 +15,8 @@ public class TestAccount {
 		System.out.println("a1 current balance: " + a1.getBalance());
 
 		
-		a1.deposit(500.00); 
-	    a1.withdrawal(200.00);
-		a1.withdrawal(200.00);
-		a1.deposit(5000.00); 
-		 
+		a1.deposit(500.00);
+		a1.withdrawal(230.00);
 
 	}
 

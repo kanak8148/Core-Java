@@ -9,5 +9,10 @@ public class Sum {
 	public Sum(int i, int j) {
 		System.out.println(i + j);
 	}
+	
+	public Sum(int i , int j , int y) {
+		System.out.println((i+j+y)*2);
+		
+	}
 
 }

@@ -15,7 +15,7 @@ public class TestShape {
 		System.out.println("borderWidth: " + c.getBorderWidth()); // parent class property
 		c.area();
 
-		System.out.println("--------triangle--------");
+		System.out.println("--------rectriangle--------");
 		Rctangle r = new Rctangle();
 
 		r.setLength(5);

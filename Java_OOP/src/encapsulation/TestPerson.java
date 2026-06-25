@@ -23,21 +23,7 @@ public class TestPerson {
 		
 		
 		System.out.println("-----------*--------------");
-		
-	Person p2 = new Person();
 	
-	p2.setName("shyam");
-	p2.setDob(sdf.parse("2009-09-09"));
-	p2.setAddress("Bhopal");
-	
-	
-	System.out.println("p2 name: " + p2.getName());
-	System.out.println("p2 dob: " + p2.getDob());
-	System.out.println("p2 address: " + p2.getAddress());
-	System.out.println("p2 age: " + p2.getAge(p2.getDob()));
-	
-	
-	System.out.println(p1==p2);
-	}
 
+}
 }

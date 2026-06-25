@@ -1,5 +1,5 @@
 package overriding;
-
+//Parent class
 public class Bank {
 
 	public String getName() {

@@ -2,11 +2,16 @@ package Polymorphism;
 
 public class AxisBank extends Bank{
 
+	/*
+	 * @Override public String getName() { return "AxisBank"; }
+	 */
+
 	@Override
+	
 	public String getName() {
 		return "AxisBank";
+		
 	}
-
 	@Override
 	public double interestRate() {
 		return 11.25;
