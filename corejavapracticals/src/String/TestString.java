@@ -1,27 +1,32 @@
 package String;
 
 public class TestString {
-	
+
 	public static void main(String[] args) {
 
-		//String name = "Vijay Dinanath Chouhan";
+		String name = "Vijay Dinanath Chouhan";	
+		name="hariram";
 		
-		String name = new String("Vijay Dinanath Chouhan");
-
-		System.out.println("name = " + name);
-		System.out.println("length: " + name.length());
-		System.out.println("7th char is: " + name.charAt(6));
-		System.out.println("first index of k: " + name.indexOf('v'));  // search from 0 index
-		System.out.println("last index of a: " + name.lastIndexOf('a')); // search from last index
-		System.out.println(name.replace('a', 'b')); // replace oldChar(a) with newChar(b)
-		System.out.println("chota vijay: " + name.toLowerCase());
-		System.out.println("bada vijay: " + name.toUpperCase());
-		System.out.println(name.startsWith("Vijay"));
-		System.out.println(name.endsWith("han"));
-		System.out.println(name.substring(6, 9));
+		System.out.println(name  );
+		// String Literral pool
 		
+	// String name3 = new String("Vijay Dinanath Chouhan");// Heap memory
+		
+	/*
+	 * System.out.println("length of string=="+name.length());
+	 * 
+	 * System.out.println("charter==="+ name.charAt(4)); System.out.println(
+	 * name.indexOf("Din"));
+	 */
+	/*
+	 * System.out.println(name.replace("a", "v"));
+	 * 
+	 * System.out.println(name);
+	 */
 
+		
+		 
+ 
 	}
-
 
 }

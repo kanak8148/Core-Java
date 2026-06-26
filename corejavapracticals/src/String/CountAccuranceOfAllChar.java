@@ -9,7 +9,7 @@ public class CountAccuranceOfAllChar {
 
 		for (char c = 'a'; c <= 'z'; c++) {
 			for (int i = 0; i < str.length(); i++) {
-				if (str.charAt(i) == c) {
+				if (str.charAt(i) == c)  {
 					count++;
 				}
 			}
@@ -21,4 +21,3 @@ public class CountAccuranceOfAllChar {
 		}
 	}
 }
-

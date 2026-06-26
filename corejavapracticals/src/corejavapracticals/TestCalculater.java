@@ -4,7 +4,7 @@ public class TestCalculater {
 	
 	public static void main(String[] args) {
 
-		String opr = "+";
+		String opr = "*";
 		int a = 5;
 		int b = 10;
 

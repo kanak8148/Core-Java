@@ -4,9 +4,9 @@ import java.util.Date;
 
 public class TestDate {
 	
-public static void main(String[] args) throws InterruptedException {
+public static void main(String[] args) {
 		
-		Date d = new Date();
+		Date d = new Date ();
 		
 		System.out.println(d);
 

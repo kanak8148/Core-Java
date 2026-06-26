@@ -11,7 +11,7 @@ public class ArmStrongNo {
 		int c = num / 100;       // first digit
 		
 
-		int sum = a*a*a + b*b*b + c*c*c;
+		int sum = a*a*a +   b*b*b + c*c*c;
 
 		if (sum == num) {
 		    System.out.println("Armstrong No");

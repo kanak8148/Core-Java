@@ -7,23 +7,21 @@ import java.util.Date;
 public class SimpleDateFormate {
 
 	public static void main(String[] args) throws ParseException {
-		
+
 		Date d = new Date();
-		
+
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-		
-		System.out.println("Default Formate date =" + d);
-		
-		String s = sdf.format(d);
-		
-		System.out.println("Formate Date=" + s);
+
+		System.out.println(sdf.format(d));
 
 		System.out.println("--------------------------------");
 
 		String dob = "2004-06-05";
+
 		System.out.println("String dob=" + dob);
 		Date date = sdf.parse(dob);
-		System.out.println("date dob=" + date);
+
+		System.out.println(date);
 
 	}
 }

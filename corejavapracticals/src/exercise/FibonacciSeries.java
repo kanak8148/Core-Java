@@ -1,6 +1,7 @@
 package exercise;
 
 public class FibonacciSeries {
+	//previous 2 numbers ka sum hota hai
 	
 	public static void main(String[] args) {
 		int a = 0;
@@ -14,5 +15,6 @@ public class FibonacciSeries {
 		}
 	}
 
+	
 }
 

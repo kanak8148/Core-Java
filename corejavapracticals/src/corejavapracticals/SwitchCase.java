@@ -3,7 +3,7 @@ package corejavapracticals;
 public class SwitchCase {
 	public static void main(String[] args) {
 
-		String day = "";
+		String day = "Wednesday";
 
 		switch (day) {
 		case "Monday":

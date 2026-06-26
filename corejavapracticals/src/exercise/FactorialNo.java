@@ -1,5 +1,5 @@
 package exercise;
-
+// Jha tak ke num ham dete hai un sabhi ke multiplicatuon karta hai 
 public class FactorialNo {
 	public static void main(String[] args) {
 
